@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Lampada JS</h1>
+        <div class="container-img">
+            <img src="assets/lampada.avif" alt="" id="img" onmouseenter="acender()" onmouseleave="apagar()" onclick="quebrar()">
+        </div>
+        <div class="btns">
+            <button id="on" onclick="acender()">Ligar</button>
+            <button id="off" onclick="apagar()">Desligar</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

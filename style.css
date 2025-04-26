@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-weight: bolder;
+    font-size: 46px;
+    margin-top: 40px;
+}
+#img{
+    height: 600px;
+    max-width: 700px;
+}
+
+#on, #off{
+    height: 40px;
+    width: 100px;
+    margin-left: 6px;
+    cursor: pointer;
+}
